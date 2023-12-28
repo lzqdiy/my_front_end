@@ -1,8 +1,10 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import './App.css';
+import logo from './logo.svg';
 
-const MyComponent = () => {
+
+const App = () => {
   const [data, setData] = useState(null);
 
   const fetchData = async () => {
@@ -24,12 +26,26 @@ const MyComponent = () => {
   }, []); // 通过空数组作为第二个参数确保fetchData只在组件挂载时调用一次
 
   return (
-    <div>
+    <div className="App">
+      <header className="App-header">
         <div>
           <p>{data}</p>
         </div>
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 };
 
-export default MyComponent;
+export default App;
