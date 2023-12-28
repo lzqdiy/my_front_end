@@ -8,7 +8,7 @@ const MyComponent = () => {
   const fetchData = async () => {
     try {
       // 发送GET请求到后端REST接口
-      const response = await axios.get('http://localhost:8000');
+      const response = await axios.get('http://192.168.1.107:8000');
       
       // 将返回的JSON数据解析并存储在state中
       setData(response.data);

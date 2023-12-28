@@ -14,4 +14,4 @@ jsonschema = "*"
 python_version = "3.10"
 
 [scripts]
-start = "uvicorn apis:app --reload"
+start = "uvicorn apis:app --reload --host 192.168.1.107 --port 8000"
