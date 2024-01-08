@@ -9,9 +9,9 @@ pipenv run start
 
 optional
 ↓
-# Create a user
+# migrate
+python manage.py makemigrations
 python manage.py migrate
 
 # Create a user
-python manage.py createsuperuser --email admin@example.com --username admin
-
+python manage.py createsuperuser
