@@ -9,7 +9,7 @@ pipenv run start
 
 optional
 ↓
-# migrate
+# add table of data
 python manage.py makemigrations
 python manage.py migrate
 
