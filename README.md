@@ -5,13 +5,28 @@
 ###  node.js setup
 https://nodejs.org/en
 
+###
+npm install -g @vue/cli
+
 ### creates vue project
 ```
 vue create hello-world
+
+or 
+
+vue ui
 ```
 ### installs axios
 ```
 npm install axios
+
+### installs element-ui (for vue2)
+```
+npm install i element-ui -S
+
+### installs element-plus (for vue3)
+```
+npm npm install element-plus
 ```
 ### Compiles and hot-reloads for development
 ```
