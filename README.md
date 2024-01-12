@@ -26,7 +26,7 @@ npm install i element-ui -S
 
 ### installs element-plus (for vue3)
 ```
-npm npm install element-plus
+npm install element-plus --save
 ```
 ### Compiles and hot-reloads for development
 ```
