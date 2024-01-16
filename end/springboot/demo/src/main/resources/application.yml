@@ -1,7 +1,39 @@
 server:
   port: 8000
+  servlet:
+    context-path: /
+spring: 
+    profiles:
+      active: local
+
+user: {uid: 100,username: lzqdiy, address: ["a","b","c"], map: {"a":1,"b":2}}
+
+---
+server:
+  port: 8000
+spring:
+  config:
+    activate:
+      on-profile: local
+
+---
+
+server:
+  port: 8081
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+---
+
+server:
+  port: 8082
+spring:
+  config:
+    activate:
+      on-profile: pro
 
 
-user: 
-  uid: 100
-  username: lzqdiy
+---
+

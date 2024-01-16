@@ -61,7 +61,7 @@ export default {
   methods: {
     fetchData() {
       // 发送GET请求到后端REST接口
-      axios.get('http://192.168.1.107:8000', {
+      axios.get('http://192.168.1.107:8000/?token=123456', {
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded'
         },
