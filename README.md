@@ -50,3 +50,18 @@ npm install axios
 ### Compiles and hot-reloads for development
 ```
 npm start
+
+
+
+## springboot
+
+### vscode  
+ctrl+shift+P
+create a maven project
+
+### add dependencies
+spring boot devTools
+lomobok
+spring configuration processor
+spring web
+mysql driver

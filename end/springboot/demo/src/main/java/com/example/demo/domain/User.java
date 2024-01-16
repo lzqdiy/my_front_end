@@ -1,4 +1,5 @@
-package com.example.restservice.domain;
+package com.example.demo.domain;
+
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
